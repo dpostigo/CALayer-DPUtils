@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CALayer-DPUtils"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "My first Cocoapod."
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
