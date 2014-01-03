@@ -8,7 +8,7 @@
 @implementation CALayer (FrameUtils)
 
 - (void) setHeight: (CGFloat) height {
-    NSRect frame = self.frame;
+    CGRect frame = self.frame;
     frame.size.height = height;
     self.frame = frame;
 }
@@ -19,7 +19,7 @@
 
 
 - (void) setWidth: (CGFloat) width {
-    NSRect frame = self.frame;
+    CGRect frame = self.frame;
     frame.size.width = width;
     self.frame = frame;
 }
@@ -30,7 +30,7 @@
 
 
 - (void) setTop: (CGFloat) top {
-    NSRect frame = self.frame;
+    CGRect frame = self.frame;
     frame.origin.y = top;
     self.frame = frame;
 }
@@ -41,7 +41,7 @@
 
 
 - (void) setLeft: (CGFloat) left {
-    NSRect frame = self.frame;
+    CGRect frame = self.frame;
     frame.origin.x = left;
     self.frame = frame;
 }
@@ -51,7 +51,7 @@
 }
 
 - (void) setSize: (CGSize) size {
-    NSRect frame = self.frame;
+    CGRect frame = self.frame;
     frame.size = size;
     self.frame = frame;
 }
@@ -59,5 +59,4 @@
 - (CGSize) size {
     return self.frame.size;
 }
-
 @end

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F8C56EE3-F743-424B-8136-CE2877473D77</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CALayer-DPUtils</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0A3E8AA-222A-4011-9BFC-1E370EA8376F</key>
+		<string>https://github.com/dpostigo/CALayer-DPUtils.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CALayer-DPUtils.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0A3E8AA-222A-4011-9BFC-1E370EA8376F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dpostigo/CALayer-DPUtils.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0A3E8AA-222A-4011-9BFC-1E370EA8376F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0A3E8AA-222A-4011-9BFC-1E370EA8376F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CALayer-DPUtils</string>
+		</dict>
+	</array>
+</dict>
+</plist>

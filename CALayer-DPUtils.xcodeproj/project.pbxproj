@@ -82,9 +82,9 @@
 			children = (
 				F29B8D828202E2F86C5A5C46 /* CALayer+FrameUtils.m */,
 				F29B82B4E313ACBB74A7FAB3 /* CALayer+FrameUtils.h */,
-				3323E7441874DF320080EFE2 /* Supporting Files */,
 				F29B813547225D2BC78B9334 /* CALayer+ConstraintUtils.m */,
 				F29B80CBE2EF0E021560F99E /* CALayer+ConstraintUtils.h */,
+				3323E7441874DF320080EFE2 /* Supporting Files */,
 			);
 			path = "CALayer-DPUtils";
 			sourceTree = "<group>";
