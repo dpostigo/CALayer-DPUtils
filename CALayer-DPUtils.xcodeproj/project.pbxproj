@@ -8,11 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		3323E73E1874DF320080EFE2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3323E73D1874DF320080EFE2 /* Cocoa.framework */; };
+		33AC7261187852F20041CEB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC7260187852F20041CEB0 /* Foundation.framework */; };
+		33AC7287187854A80041CEB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC7286187854A80041CEB0 /* UIKit.framework */; };
+		F29B82D66961850432A7A41A /* CAGradientLayer+GradientUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8D719D13B247AAE9C9C1 /* CAGradientLayer+GradientUtils.m */; };
 		F29B83F0ECC904177C9B1A00 /* CALayer+FrameUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B82B4E313ACBB74A7FAB3 /* CALayer+FrameUtils.h */; };
 		F29B887E053158C380C7FE8C /* CALayer+ConstraintUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B813547225D2BC78B9334 /* CALayer+ConstraintUtils.m */; };
 		F29B8A4DB468EF5AB9D09C4A /* CALayer+ConstraintUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B80CBE2EF0E021560F99E /* CALayer+ConstraintUtils.h */; };
+		F29B8B3C55B0E426A81C3BB6 /* CAGradientLayer+GradientUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B8D4F5091417E32CF13BB /* CAGradientLayer+GradientUtils.h */; };
+		F29B8D021FCE89FBD4EDF511 /* CAGradientLayer+GradientUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81619E3C9D97F76B5EA1 /* CAGradientLayer+GradientUtils.m */; };
 		F29B8D25156375C495DC653D /* CALayer+FrameUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8D828202E2F86C5A5C46 /* CALayer+FrameUtils.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		33AC725D187852F10041CEB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3323E73A1874DF320080EFE2 /* libCALayer-DPUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCALayer-DPUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,9 +39,18 @@
 		3323E7421874DF320080EFE2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		3323E7451874DF320080EFE2 /* CALayer-DPUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer-DPUtils-Prefix.pch"; sourceTree = "<group>"; };
 		3323E74E1874DF320080EFE2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33AC725F187852F20041CEB0 /* libCALayer-DPUtils-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCALayer-DPUtils-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AC7260187852F20041CEB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33AC7264187852F20041CEB0 /* CALayer-DPUtils-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer-DPUtils-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		33AC7270187852F20041CEB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		33AC7286187854A80041CEB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F29B80CBE2EF0E021560F99E /* CALayer+ConstraintUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+ConstraintUtils.h"; sourceTree = "<group>"; };
 		F29B813547225D2BC78B9334 /* CALayer+ConstraintUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ConstraintUtils.m"; sourceTree = "<group>"; };
+		F29B81619E3C9D97F76B5EA1 /* CAGradientLayer+GradientUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+GradientUtils.m"; sourceTree = "<group>"; };
 		F29B82B4E313ACBB74A7FAB3 /* CALayer+FrameUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FrameUtils.h"; sourceTree = "<group>"; };
+		F29B86034F2E8BD161F8F9CC /* CAGradientLayer+GradientUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+GradientUtils.h"; sourceTree = "<group>"; };
+		F29B8D4F5091417E32CF13BB /* CAGradientLayer+GradientUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+GradientUtils.h"; sourceTree = "<group>"; };
+		F29B8D719D13B247AAE9C9C1 /* CAGradientLayer+GradientUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+GradientUtils.m"; sourceTree = "<group>"; };
 		F29B8D828202E2F86C5A5C46 /* CALayer+FrameUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FrameUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,6 +63,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		33AC725C187852F10041CEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AC7287187854A80041CEB0 /* UIKit.framework in Frameworks */,
+				33AC7261187852F20041CEB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -44,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				3323E7431874DF320080EFE2 /* CALayer-DPUtils */,
+				33AC7262187852F20041CEB0 /* CALayer-DPUtils-iOS */,
 				3323E73C1874DF320080EFE2 /* Frameworks */,
 				3323E73B1874DF320080EFE2 /* Products */,
 			);
@@ -53,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				3323E73A1874DF320080EFE2 /* libCALayer-DPUtils.a */,
+				33AC725F187852F20041CEB0 /* libCALayer-DPUtils-iOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,8 +97,11 @@
 		3323E73C1874DF320080EFE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33AC7286187854A80041CEB0 /* UIKit.framework */,
 				3323E73D1874DF320080EFE2 /* Cocoa.framework */,
 				3323E74E1874DF320080EFE2 /* XCTest.framework */,
+				33AC7260187852F20041CEB0 /* Foundation.framework */,
+				33AC7270187852F20041CEB0 /* UIKit.framework */,
 				3323E73F1874DF320080EFE2 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -84,6 +124,8 @@
 				F29B82B4E313ACBB74A7FAB3 /* CALayer+FrameUtils.h */,
 				F29B813547225D2BC78B9334 /* CALayer+ConstraintUtils.m */,
 				F29B80CBE2EF0E021560F99E /* CALayer+ConstraintUtils.h */,
+				F29B81619E3C9D97F76B5EA1 /* CAGradientLayer+GradientUtils.m */,
+				F29B8D4F5091417E32CF13BB /* CAGradientLayer+GradientUtils.h */,
 				3323E7441874DF320080EFE2 /* Supporting Files */,
 			);
 			path = "CALayer-DPUtils";
@@ -97,6 +139,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		33AC7262187852F20041CEB0 /* CALayer-DPUtils-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F29B8D719D13B247AAE9C9C1 /* CAGradientLayer+GradientUtils.m */,
+				F29B86034F2E8BD161F8F9CC /* CAGradientLayer+GradientUtils.h */,
+				33AC7263187852F20041CEB0 /* Supporting Files */,
+			);
+			path = "CALayer-DPUtils-iOS";
+			sourceTree = "<group>";
+		};
+		33AC7263187852F20041CEB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33AC7264187852F20041CEB0 /* CALayer-DPUtils-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -106,6 +166,7 @@
 			files = (
 				F29B83F0ECC904177C9B1A00 /* CALayer+FrameUtils.h in Headers */,
 				F29B8A4DB468EF5AB9D09C4A /* CALayer+ConstraintUtils.h in Headers */,
+				F29B8B3C55B0E426A81C3BB6 /* CAGradientLayer+GradientUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +188,23 @@
 			name = "CALayer-DPUtils";
 			productName = "CALayer-DPUtils";
 			productReference = 3323E73A1874DF320080EFE2 /* libCALayer-DPUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		33AC725E187852F10041CEB0 /* CALayer-DPUtils-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33AC727D187852F20041CEB0 /* Build configuration list for PBXNativeTarget "CALayer-DPUtils-iOS" */;
+			buildPhases = (
+				33AC725B187852F10041CEB0 /* Sources */,
+				33AC725C187852F10041CEB0 /* Frameworks */,
+				33AC725D187852F10041CEB0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CALayer-DPUtils-iOS";
+			productName = "CALayer-DPUtils-iOS";
+			productReference = 33AC725F187852F20041CEB0 /* libCALayer-DPUtils-iOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -151,6 +229,7 @@
 			projectRoot = "";
 			targets = (
 				3323E7391874DF320080EFE2 /* CALayer-DPUtils */,
+				33AC725E187852F10041CEB0 /* CALayer-DPUtils-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -162,6 +241,15 @@
 			files = (
 				F29B8D25156375C495DC653D /* CALayer+FrameUtils.m in Sources */,
 				F29B887E053158C380C7FE8C /* CALayer+ConstraintUtils.m in Sources */,
+				F29B8D021FCE89FBD4EDF511 /* CAGradientLayer+GradientUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33AC725B187852F10041CEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29B82D66961850432A7A41A /* CAGradientLayer+GradientUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +287,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -231,7 +320,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -254,6 +344,43 @@
 			};
 			name = Release;
 		};
+		33AC727E187852F20041CEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				DSTROOT = /tmp/CALayer_DPUtils_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CALayer-DPUtils-iOS/CALayer-DPUtils-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		33AC727F187852F20041CEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				DSTROOT = /tmp/CALayer_DPUtils_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CALayer-DPUtils-iOS/CALayer-DPUtils-iOS-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -271,6 +398,15 @@
 			buildConfigurations = (
 				3323E75F1874DF320080EFE2 /* Debug */,
 				3323E7601874DF320080EFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33AC727D187852F20041CEB0 /* Build configuration list for PBXNativeTarget "CALayer-DPUtils-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AC727E187852F20041CEB0 /* Debug */,
+				33AC727F187852F20041CEB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
