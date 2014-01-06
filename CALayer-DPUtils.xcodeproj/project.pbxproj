@@ -13,6 +13,7 @@
 		F29B82D66961850432A7A41A /* CAGradientLayer+GradientUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8D719D13B247AAE9C9C1 /* CAGradientLayer+GradientUtils.m */; };
 		F29B83F0ECC904177C9B1A00 /* CALayer+FrameUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B82B4E313ACBB74A7FAB3 /* CALayer+FrameUtils.h */; };
 		F29B887E053158C380C7FE8C /* CALayer+ConstraintUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B813547225D2BC78B9334 /* CALayer+ConstraintUtils.m */; };
+		F29B890D8129035D54157C97 /* CALayer+SublayerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8DB87A794D00B8758303 /* CALayer+SublayerUtils.m */; };
 		F29B8A4DB468EF5AB9D09C4A /* CALayer+ConstraintUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B80CBE2EF0E021560F99E /* CALayer+ConstraintUtils.h */; };
 		F29B8B3C55B0E426A81C3BB6 /* CAGradientLayer+GradientUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B8D4F5091417E32CF13BB /* CAGradientLayer+GradientUtils.h */; };
 		F29B8D021FCE89FBD4EDF511 /* CAGradientLayer+GradientUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81619E3C9D97F76B5EA1 /* CAGradientLayer+GradientUtils.m */; };
@@ -47,11 +48,13 @@
 		F29B80CBE2EF0E021560F99E /* CALayer+ConstraintUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+ConstraintUtils.h"; sourceTree = "<group>"; };
 		F29B813547225D2BC78B9334 /* CALayer+ConstraintUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ConstraintUtils.m"; sourceTree = "<group>"; };
 		F29B81619E3C9D97F76B5EA1 /* CAGradientLayer+GradientUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+GradientUtils.m"; sourceTree = "<group>"; };
+		F29B81A9358F3375D7F2CCC6 /* CALayer+SublayerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SublayerUtils.h"; sourceTree = "<group>"; };
 		F29B82B4E313ACBB74A7FAB3 /* CALayer+FrameUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FrameUtils.h"; sourceTree = "<group>"; };
 		F29B86034F2E8BD161F8F9CC /* CAGradientLayer+GradientUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+GradientUtils.h"; sourceTree = "<group>"; };
 		F29B8D4F5091417E32CF13BB /* CAGradientLayer+GradientUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+GradientUtils.h"; sourceTree = "<group>"; };
 		F29B8D719D13B247AAE9C9C1 /* CAGradientLayer+GradientUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+GradientUtils.m"; sourceTree = "<group>"; };
 		F29B8D828202E2F86C5A5C46 /* CALayer+FrameUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FrameUtils.m"; sourceTree = "<group>"; };
+		F29B8DB87A794D00B8758303 /* CALayer+SublayerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SublayerUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				F29B81619E3C9D97F76B5EA1 /* CAGradientLayer+GradientUtils.m */,
 				F29B8D4F5091417E32CF13BB /* CAGradientLayer+GradientUtils.h */,
 				3323E7441874DF320080EFE2 /* Supporting Files */,
+				F29B8DB87A794D00B8758303 /* CALayer+SublayerUtils.m */,
+				F29B81A9358F3375D7F2CCC6 /* CALayer+SublayerUtils.h */,
 			);
 			path = "CALayer-DPUtils";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F29B82D66961850432A7A41A /* CAGradientLayer+GradientUtils.m in Sources */,
+				F29B890D8129035D54157C97 /* CALayer+SublayerUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

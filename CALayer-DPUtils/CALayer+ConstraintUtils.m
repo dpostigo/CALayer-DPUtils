@@ -7,10 +7,14 @@
 
 @implementation CALayer (ConstraintUtils)
 
-
 - (void) superConstrain {
     [self superConstrainEdges: 0];
     if (self.superlayer) self.superlayer.layoutManager = [CAConstraintLayoutManager layoutManager];
+}
+
+
+- (void) superConstrainEdgesH {
+    [self superConstrainEdgesH: 0];
 }
 
 
