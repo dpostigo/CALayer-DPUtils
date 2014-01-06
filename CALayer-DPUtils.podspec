@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CALayer-DPUtils"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "Utilities for CALayer."
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
