@@ -8,6 +8,8 @@
 
 @interface CALayer (ConstraintUtils)
 
+- (void) removeConstraints;
+- (void) removeConstraints: (NSArray *) constraints;
 - (void) superConstrain;
 
 - (void) superConstrainEdges: (CGFloat) offset;

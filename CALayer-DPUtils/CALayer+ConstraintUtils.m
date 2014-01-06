@@ -7,6 +7,20 @@
 
 @implementation CALayer (ConstraintUtils)
 
+- (void) removeConstraints {
+    [self setConstraints: [NSArray array]];
+}
+
+- (void) removeConstraints: (NSArray *) constraints {
+    NSMutableArray *current = [NSMutableArray arrayWithArray: self.constraints];
+    for (CAConstraint *constraint in constraints) {
+        if ([current containsObject: constraint]) {
+            [current removeObject: constraint];
+        }
+    }
+    [self setConstraints: current];
+}
+
 - (void) superConstrain {
     [self superConstrainEdges: 0];
     if (self.superlayer) self.superlayer.layoutManager = [CAConstraintLayoutManager layoutManager];
