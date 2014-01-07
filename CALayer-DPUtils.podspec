@@ -5,8 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
   s.author       = { "Dani Postigo" => "dani@firstperson.is" }
-  # s.source       = { :git => "https://github.com/dpostigo/CALayer-DPUtils.git", :tag => s.version.to_s }
-  s.source       = { :git => "https://github.com/dpostigo/CALayer-DPUtils.git", :commit => 'c2cb3528b907e175aead5863f1e2cf10b434802d' }
+  s.source       = { :git => "https://github.com/dpostigo/CALayer-DPUtils.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '4.3'
   s.osx.deployment_target = '10.7'
