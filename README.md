@@ -5,7 +5,6 @@ Utilities for CALayer in OS X and iOS.
 
 ## CALayer (FrameUtils)
 
-
 ```objective-c
 - (CGFloat) width;
 - (CGFloat) height;
@@ -22,7 +21,7 @@ Utilities for CALayer in OS X and iOS.
 
 ## CALayer (ConstraintUtils)
 
-Remove constraints.
+Removing constraints:
 
 ```objective-c
 - (void) removeConstraint: (CAConstraint *) constraint;
@@ -30,7 +29,7 @@ Remove constraints.
 - (void) removeConstraints; // Remove all constraints
 ```
 
-Constrain the layer's superlayer.
+Quickly add constraints in relation to a layer's superlayer:
 
 ```objective-c
 // Constrain all edges to the superlayer.
@@ -61,7 +60,7 @@ Constrain the layer's superlayer.
 // Find a sublayer by its name property
 - (CALayer *) sublayerWithName: (NSString *) name;
 
-// Helpers to execute the same command on all sublayers
+// Execute the same command on all sublayers
 - (void) setSublayerCornerRadius: (CGFloat) radius;
 - (void) setSublayerDelegate: (id) delegate;
 ```
