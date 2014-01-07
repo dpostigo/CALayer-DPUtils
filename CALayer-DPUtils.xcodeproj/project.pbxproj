@@ -16,8 +16,10 @@
 		F29B890D8129035D54157C97 /* CALayer+SublayerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8DB87A794D00B8758303 /* CALayer+SublayerUtils.m */; };
 		F29B8A4DB468EF5AB9D09C4A /* CALayer+ConstraintUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B80CBE2EF0E021560F99E /* CALayer+ConstraintUtils.h */; };
 		F29B8B3C55B0E426A81C3BB6 /* CAGradientLayer+GradientUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B8D4F5091417E32CF13BB /* CAGradientLayer+GradientUtils.h */; };
+		F29B8C44EC2D1BD1916C2868 /* CALayer+ConstraintGetters.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B8264D7F47BB3D9807B92 /* CALayer+ConstraintGetters.h */; };
 		F29B8D021FCE89FBD4EDF511 /* CAGradientLayer+GradientUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81619E3C9D97F76B5EA1 /* CAGradientLayer+GradientUtils.m */; };
 		F29B8D25156375C495DC653D /* CALayer+FrameUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8D828202E2F86C5A5C46 /* CALayer+FrameUtils.m */; };
+		F29B8DB22634C1167E0CDFBB /* CALayer+ConstraintGetters.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8430AB65335F5A8ADBCF /* CALayer+ConstraintGetters.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,7 +51,9 @@
 		F29B813547225D2BC78B9334 /* CALayer+ConstraintUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ConstraintUtils.m"; sourceTree = "<group>"; };
 		F29B81619E3C9D97F76B5EA1 /* CAGradientLayer+GradientUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+GradientUtils.m"; sourceTree = "<group>"; };
 		F29B81A9358F3375D7F2CCC6 /* CALayer+SublayerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SublayerUtils.h"; sourceTree = "<group>"; };
+		F29B8264D7F47BB3D9807B92 /* CALayer+ConstraintGetters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+ConstraintGetters.h"; sourceTree = "<group>"; };
 		F29B82B4E313ACBB74A7FAB3 /* CALayer+FrameUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FrameUtils.h"; sourceTree = "<group>"; };
+		F29B8430AB65335F5A8ADBCF /* CALayer+ConstraintGetters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ConstraintGetters.m"; sourceTree = "<group>"; };
 		F29B86034F2E8BD161F8F9CC /* CAGradientLayer+GradientUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+GradientUtils.h"; sourceTree = "<group>"; };
 		F29B8D4F5091417E32CF13BB /* CAGradientLayer+GradientUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+GradientUtils.h"; sourceTree = "<group>"; };
 		F29B8D719D13B247AAE9C9C1 /* CAGradientLayer+GradientUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+GradientUtils.m"; sourceTree = "<group>"; };
@@ -129,9 +133,11 @@
 				F29B80CBE2EF0E021560F99E /* CALayer+ConstraintUtils.h */,
 				F29B81619E3C9D97F76B5EA1 /* CAGradientLayer+GradientUtils.m */,
 				F29B8D4F5091417E32CF13BB /* CAGradientLayer+GradientUtils.h */,
-				3323E7441874DF320080EFE2 /* Supporting Files */,
 				F29B8DB87A794D00B8758303 /* CALayer+SublayerUtils.m */,
 				F29B81A9358F3375D7F2CCC6 /* CALayer+SublayerUtils.h */,
+				3323E7441874DF320080EFE2 /* Supporting Files */,
+				F29B8430AB65335F5A8ADBCF /* CALayer+ConstraintGetters.m */,
+				F29B8264D7F47BB3D9807B92 /* CALayer+ConstraintGetters.h */,
 			);
 			path = "CALayer-DPUtils";
 			sourceTree = "<group>";
@@ -172,6 +178,7 @@
 				F29B83F0ECC904177C9B1A00 /* CALayer+FrameUtils.h in Headers */,
 				F29B8A4DB468EF5AB9D09C4A /* CALayer+ConstraintUtils.h in Headers */,
 				F29B8B3C55B0E426A81C3BB6 /* CAGradientLayer+GradientUtils.h in Headers */,
+				F29B8C44EC2D1BD1916C2868 /* CALayer+ConstraintGetters.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +254,7 @@
 				F29B8D25156375C495DC653D /* CALayer+FrameUtils.m in Sources */,
 				F29B887E053158C380C7FE8C /* CALayer+ConstraintUtils.m in Sources */,
 				F29B8D021FCE89FBD4EDF511 /* CAGradientLayer+GradientUtils.m in Sources */,
+				F29B8DB22634C1167E0CDFBB /* CALayer+ConstraintGetters.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

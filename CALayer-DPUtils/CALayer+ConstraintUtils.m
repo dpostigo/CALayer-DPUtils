@@ -7,6 +7,13 @@
 
 @implementation CALayer (ConstraintUtils)
 
+- (void) removeConstraint: (CAConstraint *) constraint {
+    NSMutableArray *constraints = [NSMutableArray arrayWithArray: self.constraints];
+    [constraints removeObject: constraint];
+    [self setConstraints: constraints];
+}
+
+
 - (void) removeConstraints {
     [self setConstraints: [NSArray array]];
 }

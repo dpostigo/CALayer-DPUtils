@@ -8,6 +8,7 @@
 
 @interface CALayer (ConstraintUtils)
 
+- (void) removeConstraint: (CAConstraint *) constraint;
 - (void) removeConstraints;
 - (void) removeConstraints: (NSArray *) constraints;
 - (void) superConstrain;
