@@ -7,13 +7,9 @@
 
 @implementation CALayer (ConstraintGetters)
 
-
-
-
 - (CAConstraint *) superConstraintWithAttribute: (CAConstraintAttribute) attribute attribute: (CAConstraintAttribute) sourceAttribute {
     return [self constraintWithAttribute: attribute attribute: sourceAttribute sourceName: @"superlayer"];
 }
-
 
 - (CAConstraint *) constraintWithAttribute: (CAConstraintAttribute) attribute attribute: (CAConstraintAttribute) sourceAttribute sourceName: (NSString *) sourceName {
     CAConstraint *ret = nil;
@@ -31,9 +27,5 @@
     return ret;
 }
 
-//
-//- (void) superConstrain: (CAConstraintAttribute) subviewEdge to: (CAConstraintAttribute) superlayerEdge offset: (CGFloat) offset {
-//    [self addConstraint: [CAConstraint constraintWithAttribute: subviewEdge relativeTo: @"superlayer" attribute: superlayerEdge offset: offset]];
-//}
 
 @end
