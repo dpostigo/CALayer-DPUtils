@@ -34,6 +34,8 @@
 }
 
 
+#pragma mark SuperConstrain edges
+
 - (void) superConstrainEdgesH {
     [self superConstrainEdgesH: 0];
 }
@@ -42,6 +44,10 @@
 - (void) superConstrainEdgesH: (CGFloat) offset {
     [self superConstrain: kCAConstraintMinX offset: offset];
     [self superConstrain: kCAConstraintMaxX offset: -offset];
+}
+
+- (void) superConstrainEdgesV {
+    [self superConstrainEdgesV: 0];
 }
 
 - (void) superConstrainEdgesV: (CGFloat) offset {
@@ -60,6 +66,10 @@
 - (void) superConstrain: (CAConstraintAttribute) edge {
     [self superConstrain: edge offset: 0];
 }
+
+
+
+#pragma mark SuperConstrain explicit edges
 
 - (void) superConstrainTopEdge {
     [self superConstrain: kCAConstraintMinY to: kCAConstraintMinY offset: 0];

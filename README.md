@@ -17,7 +17,6 @@ Utilities for CALayer in OS X and iOS.
 - (void) setHeight: (CGFloat) height;
 - (void) setTop: (CGFloat) top;
 - (void) setLeft: (CGFloat) left;
-
 - (void) setSize: (CGSize) size;
 ```
 
@@ -31,18 +30,16 @@ Remove constraints.
 - (void) removeConstraints; // Remove all constraints
 ```
 
-
 Constrain the layer's superlayer.
-
 
 ```objective-c
 // Constrain all edges to the superlayer.
 - (void) superConstrain;
 
-// Constrain all edges to the superlayer with an optional inset.
+// Constrain all edges with an optional inset from the superlayer's bounds.
 - (void) superConstrainEdges: (CGFloat) offset;
 
-// Constrains only the left and right edges
+// Constrains only left and right edges
 - (void) superConstrainEdgesH;
 - (void) superConstrainEdgesH: (CGFloat) offset;
 
@@ -56,4 +53,15 @@ Constrain the layer's superlayer.
 // Constrain the child layer to its superlayer's bottom edge.
 - (void) superConstrainBottomEdge;
 - (void) superConstrainBottomEdge: (CGFloat) offset;
+```
+
+## CALayer (SublayerUtils)
+
+```objective-c
+// Find a sublayer by its name property
+- (CALayer *) sublayerWithName: (NSString *) name;
+
+// Helpers to execute the same command on all sublayers
+- (void) setSublayerCornerRadius: (CGFloat) radius;
+- (void) setSublayerDelegate: (id) delegate;
 ```

@@ -17,6 +17,7 @@
 - (void) superConstrainEdges: (CGFloat) offset;
 - (void) superConstrainEdgesH;
 - (void) superConstrainEdgesH: (CGFloat) offset;
+- (void) superConstrainEdgesV;
 - (void) superConstrainEdgesV: (CGFloat) offset;
 
 - (void) superConstrainTopEdge;
