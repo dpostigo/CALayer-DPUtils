@@ -21,7 +21,7 @@ Utilities for CALayer in OS X and iOS.
 
 ## CALayer (ConstraintUtils)
 
-ConstraintUtils are not included in iOS files (CAConstraint not available in iOS 7 yet).
+ConstraintUtils are not included in iOS files. CAConstraint is not available in iOS as of now.
 
 ##### Removing constraints:
 
@@ -66,3 +66,7 @@ Quickly add constraints in relation to a layer's superlayer:
 - (void) setSublayerCornerRadius: (CGFloat) radius;
 - (void) setSublayerDelegate: (id) delegate;
 ```
+
+## Credits
+
+CALayer-DPUtils is an personal stash of utils brought to you by [Dani Postigo](http://dpostigo.com). Feedback & suggestions always welcome.
