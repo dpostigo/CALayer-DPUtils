@@ -3,7 +3,7 @@ CALayer-DPUtils
 
 Utilities for CALayer in OS X and iOS.
 
-### CALayer (FrameUtils)
+## CALayer (FrameUtils)
 
 
 ```objective-c
@@ -21,3 +21,10 @@ Utilities for CALayer in OS X and iOS.
 - (void) setSize: (CGSize) size;
 ```
 
+## CALayer (ConstraintUtils)
+
+```objective-c
+- (void) removeConstraint: (CAConstraint *) constraint;
+- (void) removeConstraints: (NSArray *) constraints;
+- (void) removeConstraints; // Remove all constraints
+```

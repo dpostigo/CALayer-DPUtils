@@ -70,6 +70,11 @@
     [self superConstrain: kCAConstraintMinY to: kCAConstraintMinY offset: offset];
 }
 
+- (void) superConstrainBottomEdge {
+    [self superConstrainBottomEdge: 0];
+
+}
+
 - (void) superConstrainBottomEdge: (CGFloat) offset {
     [self superConstrain: kCAConstraintMaxY to: kCAConstraintMaxY offset: offset];
 }

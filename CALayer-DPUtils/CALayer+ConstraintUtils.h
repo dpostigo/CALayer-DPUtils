@@ -8,21 +8,20 @@
 
 @interface CALayer (ConstraintUtils)
 
-- (void) removeConstraint: (CAConstraint *) constraint;
 - (void) removeConstraints;
+- (void) removeConstraint: (CAConstraint *) constraint;
 - (void) removeConstraints: (NSArray *) constraints;
+
 - (void) superConstrain;
 
 - (void) superConstrainEdges: (CGFloat) offset;
-
 - (void) superConstrainEdgesH;
 - (void) superConstrainEdgesH: (CGFloat) offset;
-
 - (void) superConstrainEdgesV: (CGFloat) offset;
 
 - (void) superConstrainTopEdge;
 - (void) superConstrainTopEdge: (CGFloat) offset;
-
+- (void) superConstrainBottomEdge;
 - (void) superConstrainBottomEdge: (CGFloat) offset;
 
 - (void) superConstrain: (CAConstraintAttribute) edge;
