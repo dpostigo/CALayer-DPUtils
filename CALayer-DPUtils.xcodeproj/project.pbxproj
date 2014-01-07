@@ -42,6 +42,7 @@
 		3323E7421874DF320080EFE2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		3323E7451874DF320080EFE2 /* CALayer-DPUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer-DPUtils-Prefix.pch"; sourceTree = "<group>"; };
 		3323E74E1874DF320080EFE2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3376CF06187C4B630081FD34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		33AC725F187852F20041CEB0 /* libCALayer-DPUtils-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCALayer-DPUtils-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AC7260187852F20041CEB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		33AC7264187852F20041CEB0 /* CALayer-DPUtils-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer-DPUtils-iOS-Prefix.pch"; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 			children = (
 				3323E7431874DF320080EFE2 /* CALayer-DPUtils */,
 				33AC7262187852F20041CEB0 /* CALayer-DPUtils-iOS */,
+				3376CF05187C4B570081FD34 /* Resources */,
 				3323E73C1874DF320080EFE2 /* Frameworks */,
 				3323E73B1874DF320080EFE2 /* Products */,
 			);
@@ -148,6 +150,14 @@
 				3323E7451874DF320080EFE2 /* CALayer-DPUtils-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3376CF05187C4B570081FD34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3376CF06187C4B630081FD34 /* README.md */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		33AC7262187852F20041CEB0 /* CALayer-DPUtils-iOS */ = {

@@ -1,11 +1,10 @@
 CALayer-DPUtils
 ===============
 
-## Documentation
+Utilities for CALayer in OS X and iOS.
 
 ### CALayer (FrameUtils)
 
-You can show the status of indeterminate tasks using:
 
 ```objective-c
 - (CGFloat) width;
