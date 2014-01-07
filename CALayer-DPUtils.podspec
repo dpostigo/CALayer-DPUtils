@@ -12,8 +12,6 @@ Pod::Spec.new do |s|
 
   s.osx.source_files = 'CALayer-DPUtils/*.{h,m}', 'CALayer-DPUtils-OSX/*.{h,m}'
   s.ios.source_files = 'CALayer-DPUtils/*.{h,m}', 'CALayer-DPUtils-iOS/*.{h,m}'
-  # s.ios.exclude_files = 'CALayer-DPUtils/CALayer+ConstraintUtils.{h,m}',
-  # 'CALayer-DPUtils/CAGradientLayer+GradientUtils.{h,m}'
 
   s.frameworks = 'QuartzCore'
   s.ios.frameworks = 'UIKit'
