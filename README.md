@@ -21,7 +21,9 @@ Utilities for CALayer in OS X and iOS.
 
 ## CALayer (ConstraintUtils)
 
-Removing constraints:
+Not available in iOS.
+
+# Removing constraints:
 
 ```objective-c
 - (void) removeConstraint: (CAConstraint *) constraint;
