@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'QuartzCore'
   s.ios.frameworks = 'UIKit'
-  s.osx.dependency = 'DPKit'
+  s.osx.dependency 'DPKit'
 end
