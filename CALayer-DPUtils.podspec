@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CALayer-DPUtils"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Utilities for CALayer."
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'QuartzCore'
   s.ios.frameworks = 'UIKit'
+  s.osx.dependency = 'DPKit'
 end

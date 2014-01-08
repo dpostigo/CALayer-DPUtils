@@ -12,6 +12,8 @@
 		3376CF08187C545A0081FD34 /* CALayer+SublayerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8DB87A794D00B8758303 /* CALayer+SublayerUtils.m */; };
 		33AC7261187852F20041CEB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC7260187852F20041CEB0 /* Foundation.framework */; };
 		33AC7287187854A80041CEB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AC7286187854A80041CEB0 /* UIKit.framework */; };
+		33C4CC3C187E01CF008FB67E /* CARoundedShapeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C4CC3A187E01CF008FB67E /* CARoundedShapeLayer.h */; };
+		33C4CC3D187E01CF008FB67E /* CARoundedShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4CC3B187E01CF008FB67E /* CARoundedShapeLayer.m */; };
 		F29B83F0ECC904177C9B1A00 /* CALayer+FrameUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B82B4E313ACBB74A7FAB3 /* CALayer+FrameUtils.h */; };
 		F29B887E053158C380C7FE8C /* CALayer+ConstraintUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B813547225D2BC78B9334 /* CALayer+ConstraintUtils.m */; };
 		F29B8A4DB468EF5AB9D09C4A /* CALayer+ConstraintUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B80CBE2EF0E021560F99E /* CALayer+ConstraintUtils.h */; };
@@ -46,6 +48,8 @@
 		33AC7264187852F20041CEB0 /* CALayer-DPUtils-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer-DPUtils-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		33AC7270187852F20041CEB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		33AC7286187854A80041CEB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		33C4CC3A187E01CF008FB67E /* CARoundedShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CARoundedShapeLayer.h; sourceTree = "<group>"; };
+		33C4CC3B187E01CF008FB67E /* CARoundedShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CARoundedShapeLayer.m; sourceTree = "<group>"; };
 		F29B80CBE2EF0E021560F99E /* CALayer+ConstraintUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+ConstraintUtils.h"; sourceTree = "<group>"; };
 		F29B813547225D2BC78B9334 /* CALayer+ConstraintUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ConstraintUtils.m"; sourceTree = "<group>"; };
 		F29B81A9358F3375D7F2CCC6 /* CALayer+SublayerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SublayerUtils.h"; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 		3376CF0A187C79250081FD34 /* CALayer-DPUtils-OSX */ = {
 			isa = PBXGroup;
 			children = (
+				33C4CC3A187E01CF008FB67E /* CARoundedShapeLayer.h */,
+				33C4CC3B187E01CF008FB67E /* CARoundedShapeLayer.m */,
 				F29B8264D7F47BB3D9807B92 /* CALayer+ConstraintGetters.h */,
 				F29B8430AB65335F5A8ADBCF /* CALayer+ConstraintGetters.m */,
 				F29B80CBE2EF0E021560F99E /* CALayer+ConstraintUtils.h */,
@@ -186,6 +192,7 @@
 				F29B83F0ECC904177C9B1A00 /* CALayer+FrameUtils.h in Headers */,
 				F29B8A4DB468EF5AB9D09C4A /* CALayer+ConstraintUtils.h in Headers */,
 				3376CF07187C54560081FD34 /* CALayer+SublayerUtils.h in Headers */,
+				33C4CC3C187E01CF008FB67E /* CARoundedShapeLayer.h in Headers */,
 				F29B8C44EC2D1BD1916C2868 /* CALayer+ConstraintGetters.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +269,7 @@
 				F29B8D25156375C495DC653D /* CALayer+FrameUtils.m in Sources */,
 				F29B887E053158C380C7FE8C /* CALayer+ConstraintUtils.m in Sources */,
 				3376CF08187C545A0081FD34 /* CALayer+SublayerUtils.m in Sources */,
+				33C4CC3D187E01CF008FB67E /* CARoundedShapeLayer.m in Sources */,
 				F29B8DB22634C1167E0CDFBB /* CALayer+ConstraintGetters.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
