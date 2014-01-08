@@ -4,7 +4,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <DPKit/NSBezierPath+RoundedCorners.h>
+#import <QuartzCore/QuartzCore.h>
+#import "NSBezierPath+RoundedCorners.h"
 
 @interface CARoundedShapeLayer : CAShapeLayer {
     AFCornerOptions corners;

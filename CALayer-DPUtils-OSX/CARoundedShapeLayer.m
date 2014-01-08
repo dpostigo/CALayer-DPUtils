@@ -4,7 +4,6 @@
 //
 
 #import "CARoundedShapeLayer.h"
-#import "NSBezierPath+RoundedCorners.h"
 #import "NSBezierPath+DPKit.h"
 
 @implementation CARoundedShapeLayer
