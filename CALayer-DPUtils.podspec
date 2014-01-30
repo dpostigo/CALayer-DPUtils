@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CALayer-DPUtils"
-  s.version      = "0.1.4"
+  s.version      = "0.1.5"
   s.summary      = "Utilities for CALayer."
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
@@ -14,6 +14,8 @@ Pod::Spec.new do |s|
   s.ios.source_files = 'CALayer-DPUtils/*.{h,m}', 'CALayer-DPUtils-iOS/*.{h,m}'
 
   s.frameworks = 'QuartzCore'
+
   s.ios.frameworks = 'UIKit'
-  s.osx.dependency 'DPKit'
+  s.osx.dependency 'DPKit/Graphics'
+
 end
