@@ -7,6 +7,14 @@
 
 @implementation CALayer (SublayerUtils)
 
+- (void) removeAllSublayers {
+
+    NSArray *layers = [NSArray arrayWithArray: self.sublayers];
+    for (CALayer *layer in layers) {
+        [layer removeFromSuperlayer];
+    }
+}
+
 - (CALayer *) sublayerWithName: (NSString *) name {
     CALayer *ret = nil;
     NSArray *sublayers = self.sublayers;
@@ -36,5 +44,14 @@
     }
 }
 
+
+- (void) setSublayerSpeed: (CGFloat) speed {
+
+    NSArray *sublayers = self.sublayers;
+    [sublayers enumerateObjectsUsingBlock: ^(CALayer *sublayer, NSUInteger index, BOOL *stop) {
+        sublayer.speed = speed;
+    }];
+
+}
 
 @end
